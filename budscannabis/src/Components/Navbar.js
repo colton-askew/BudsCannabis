@@ -1,6 +1,7 @@
 import React, {useState} from 'react' 
 import '../App.css';
 import SearchIcon from "@material-ui/icons/Search";
+import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import './Navbar.css';
 import Sidebar from './Sidebar';
  
@@ -22,7 +23,7 @@ function Navbar() {
                 <input type="text" placeholder="Search..."/>
                 <button><SearchIcon /></button>
                 <div className="links">
-                    <a href="/AccountManagement">Account</a>
+                    <a href="/AccountManagement"><button><AccountBoxIcon /></button></a>
                 </div>
             </div>                
         </div>
