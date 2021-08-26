@@ -1,7 +1,7 @@
 .Navbar {
-    background-color: #021E39;
+    background-color: #333;
     width: 100%;
-    height: 80px;
+    height: 8vh;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
   }
@@ -29,7 +29,7 @@
   .Navbar .leftSide .links a {
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 15px;
   }
   
@@ -42,7 +42,7 @@
   }
   
   .rightSide input {
-    width: 220px;
+    width: 200px;
     height: 30px;
     border: none;
     border-radius: 4px;
@@ -57,10 +57,21 @@
     font-size: 16px;
   }
 
+  .Navbar .rightSide .links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+
   
 @media only screen and (max-width: 900px) {
     .Navbar .leftSide .links a {
       font-size: 20px;
+    }
+
+    .rightSide input {
+      width: 200px;
     }
   }
   
@@ -78,7 +89,7 @@
     }
   
     .Navbar .leftSide .links {
-      display: none;
+      font-size: 5px;
     }  
   
     .Navbar .leftSide #hidden {

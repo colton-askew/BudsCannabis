@@ -2,13 +2,13 @@ import React, {useState} from 'react'
 import '../App.css';
 import SearchIcon from "@material-ui/icons/Search";
 import './Navbar.css';
-import DrawerToggleButton from './DrawerToggleButton';
-
+import Sidebar from './Sidebar';
  
 function Navbar() {
     const [showLinks, setShowLinks] = useState(false);
     return (
         <div className="Navbar"> 
+        <Sidebar />
             <div className="leftSide">
                 <div className="links" id={showLinks ? "hidden" : ""}>
                     <a href="/Home">Home</a>
@@ -16,12 +16,14 @@ function Navbar() {
                     <a href="/Locations">Locations</a>
                     <a href="/About">About us</a>
                 </div>
-               <DrawerToggleButton />
             </div>
 
             <div className="rightSide">
                 <input type="text" placeholder="Search..."/>
                 <button><SearchIcon /></button>
+                <div className="links">
+                    <a href="/AccountManagement">Account</a>
+                </div>
             </div>                
         </div>
     )
