@@ -7,15 +7,15 @@ function Login() {
 
   return(
     <div id="popup" data-popup="popup-1">
-      <div class ="verify-window">
+      <div className ="verify-window">
         <h3> Age Verificacation</h3>
         <p>Are you at least 19 years old?</p>
 
-        <div class="button-yes" data-popup-close="popup-1">
+        <div className="button-yes" data-popup-close="popup-1">
           Yes
         </div>
 
-        <div class="button-no">
+        <div className="button-no">
           No
         </div>
       </div>
@@ -25,9 +25,13 @@ function Login() {
 
 $(function() {
 
-  //Check it the user has been accpeted the agreement
+  //Check it the user has verified their age, if not, displays age verification pop-up
   if (!(document.cookie && document.cookie === "accepted")) {
     $("#popup").show();
+  }
+  //Hide age verification pop-up for those that have the cookie
+  else {
+    $("#popup").hide();
   }
 
   $('[data-popup-close]').on('click', function(e) {

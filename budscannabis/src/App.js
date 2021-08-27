@@ -21,10 +21,12 @@ function App() {
         <Route exact path="/products" component={Products} />
         <Route exact path="/locations" component={Locations} />
         <Route exact path="/AccountManagement" component={AccountManagement} />
-        <div className = "Verify">
-          <Route path ="/" component={Login} />
-        </div>
       </div>
+
+      <div className = "Login">
+          <Route path ="/" component={Login} />
+      </div>
+
     </Router>  
   );
 }
