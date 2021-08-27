@@ -1,7 +1,7 @@
 import React, {useState} from 'react' 
 import '../App.css';
 import SearchIcon from "@material-ui/icons/Search";
-import AccountBoxIcon from '@material-ui/icons/AccountBox';
+import AccountBoxIcon from "@material-ui/icons/AccountBox";
 import './Navbar.css';
 import Sidebar from './Sidebar';
  
