@@ -23,7 +23,7 @@ function Navbar() {
                 <input type="text" placeholder="Search..."/>
                 <button><SearchIcon /></button>
                 <div className="links">
-                    <a href="/AccountManagement"><button><AccountBoxIcon /></button></a>
+                    <a href="/LoginForm"><button><AccountBoxIcon /></button></a>
                 </div>
             </div>                
         </div>

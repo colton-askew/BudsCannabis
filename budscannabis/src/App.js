@@ -9,6 +9,7 @@ import Locations from './Locations';
 import AccountManagement from "./AccountManagement";
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import Navbar from "./Components/Navbar";
+import LoginForm from "../src/Components/login/LoginForm"
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/products" component={Products} />
         <Route exact path="/locations" component={Locations} />
         <Route exact path="/AccountManagement" component={AccountManagement} />
+        <Route exact path="/LoginForm" component={LoginForm} />
       </div>
 
       <div className = "Login">

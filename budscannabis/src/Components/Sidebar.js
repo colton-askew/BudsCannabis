@@ -27,7 +27,7 @@ const Sidebar = () => {
     <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial'}}>
       <CDBSidebar textColor="#fff" backgroundColor="#333">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
-          <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>
+          <a href="/Home" className="text-decoration-none" style={{ color: 'inherit' }}>
                 BudsCannabis
           </a>
         </CDBSidebarHeader>
@@ -51,7 +51,7 @@ const Sidebar = () => {
               <CDBSidebarMenuItem icon="chart-line">About Us</CDBSidebarMenuItem>
             </NavLink>
 
-            <NavLink exact to="/AccountManagement"  activeClassName="activeClicked">
+            <NavLink exact to="/LoginForm"  activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="user">Account Management</CDBSidebarMenuItem>
             </NavLink>
 
