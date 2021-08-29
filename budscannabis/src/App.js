@@ -1,8 +1,8 @@
 import React from "react";
 import './App.css';
 import Home from './Home';
-import Login from './Components/login/Login';
-import './Components/login/Login.css';
+import Verification from './Components/login/Verification';
+import './Components/login/Verification.css';
 import Products from './Products';
 import About from './About';
 import Locations from './Locations';
@@ -25,8 +25,8 @@ function App() {
         <Route exact path="/LoginForm" component={LoginForm} />
       </div>
 
-      <div className = "Login">
-          <Route path ="/" component={Login} />
+      <div className = "Verification">
+          <Route path ="/" component={Verification} />
       </div>
 
     </Router>  

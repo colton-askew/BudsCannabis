@@ -2,7 +2,7 @@ import React from 'react'
 import jQuery from 'jquery';
 import $ from "jquery";
 
-function Login() {
+function Verification() {
     
 
   return(
@@ -46,4 +46,4 @@ $(function() {
 
 });
 
-export default Login;
+export default Verification;
