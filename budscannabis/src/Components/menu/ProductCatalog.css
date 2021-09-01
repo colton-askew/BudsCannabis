@@ -1,0 +1,14 @@
+#product-catalog {
+    position: relative;
+    left: 100px;
+
+    padding: var(--spectrum-grid-outer-padding);
+    display: flex;
+    flex:0 1 21%;
+    flex-wrap: wrap;
+}
+
+.product-title {
+    font-size: 2em;
+}
+
