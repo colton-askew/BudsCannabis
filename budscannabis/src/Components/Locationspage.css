@@ -14,7 +14,7 @@
 }
 
 .locationsCards {
-    max-width: 40%;
+    max-width: 45%;
     display: flex;
     flex-wrap: wrap;
 }
