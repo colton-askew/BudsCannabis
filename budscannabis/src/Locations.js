@@ -34,7 +34,7 @@ function Locations() {
                     <br /> <br />
                     Tel: 778-351-2837
                     </Card.Text>
-                    <Card.Link href="#" style={{fontSize:"20px"}}>Map Location</Card.Link>
+                    <Card.Link href="https://www.google.com/maps/?q=buds%20cannabis%206765%20Veyaness%20Road%20Saanichton,%20BC" style={{fontSize:"20px"}}>Map Location</Card.Link>
                 </Card.Body>
                 </Card>
                 <Card className="locationsCards">
@@ -48,7 +48,7 @@ function Locations() {
                     <br /> <br />
                     Tel: 778-351-4201
                     </Card.Text>
-                    <Card.Link href="#" style={{fontSize:"20px"}}>Map Location</Card.Link>
+                    <Card.Link href="https://www.google.com/maps/?q=buds cannabis 9775 Second St, Sidney, BC V8L 4P8" style={{fontSize:"20px"}}>Map Location</Card.Link>
                 </Card.Body>
                 </Card>
             </div>
