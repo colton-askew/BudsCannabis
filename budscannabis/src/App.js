@@ -15,7 +15,7 @@ import LoginForm from "../src/Components/login/LoginForm"
 function App() {
   return (
     <Router>  
-      <div className="App" style={{height: '100%'}}>
+      <div className="App" >
         <Navbar />
         <Route exact path="/home" component={Home} />
         <Route exact path="/about" component={About} />

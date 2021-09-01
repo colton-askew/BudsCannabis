@@ -1,0 +1,20 @@
+.locationsPage {
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+    background-color: beige;
+    width: 50%;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.locationsCards {
+    max-width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 import {
 
   CDBSidebar,
@@ -19,7 +18,6 @@ import {
 
 import { NavLink } from 'react-router-dom';
 
- 
 
 const Sidebar = () => {
 
@@ -36,7 +34,7 @@ const Sidebar = () => {
           <CDBSidebarMenu>
 
             <NavLink exact to="/Home" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="columns">Home</CDBSidebarMenuItem>
+              <CDBSidebarMenuItem icon="home">Home</CDBSidebarMenuItem>
             </NavLink>
            
             <NavLink exact to="/Products" activeClassName="activeClicked">
@@ -44,23 +42,24 @@ const Sidebar = () => {
             </NavLink>
            
             <NavLink exact to="/Locations" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="user">Locations</CDBSidebarMenuItem>
+              <CDBSidebarMenuItem icon="map">Locations</CDBSidebarMenuItem>
             </NavLink>
            
             <NavLink exact to="/About" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="chart-line">About Us</CDBSidebarMenuItem>
+              <CDBSidebarMenuItem icon="chart-line">Contact Us</CDBSidebarMenuItem>
             </NavLink>
 
             <NavLink exact to="/LoginForm"  activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="user">Account Management</CDBSidebarMenuItem>
+              <CDBSidebarMenuItem icon="user">Log in/Sign up</CDBSidebarMenuItem>
             </NavLink>
+
 
           </CDBSidebarMenu>
         </CDBSidebarContent>
 
         <CDBSidebarFooter style={{ textAlign: 'center' }}>
           <div className="sidebar-btn-wrapper"style={{ padding: '20px 5px',}}>
-            Sidebar Footer COPYRIGHT SHIT
+           COPYRIGHT SHIT
           </div>
         </CDBSidebarFooter>
       </CDBSidebar>

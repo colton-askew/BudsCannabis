@@ -25,6 +25,7 @@ export default function LoginForm() {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            placeholder="JohnDoe@gmail.com"
           />
         </Form.Group>
         <Form.Group size="lg" controlId="password">
@@ -33,9 +34,10 @@ export default function LoginForm() {
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            placeholder="******"
           />
         </Form.Group>
-        <Button block size="lg" type="submit" disabled={!validateForm()}>
+        <Button block size="lg" type="submit"  disabled={!validateForm()}>
           Login
         </Button>
       </Form>

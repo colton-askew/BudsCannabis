@@ -1,0 +1,13 @@
+@media all and (min-width: 480px) {
+  .contactForm {
+    padding: 60px ;
+    max-width: 720px;
+    margin: auto; 
+    margin-top: 15px;
+    width: 50%;
+  } 
+
+  .button {
+    margin-top: 15px;
+  }
+}
