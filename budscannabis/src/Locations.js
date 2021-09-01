@@ -26,7 +26,7 @@ function Locations() {
                 <Card className="locationsCards">
                 <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
                 <Card.Body>
-                    <Card.Title>BudsCannabis</Card.Title>
+                    <Card.Title style={{fontSize:"30px"}}>BudsCannabis</Card.Title>
                     <Card.Text style={{fontSize:"20px"}}>
                     #100-6765 Veyaness Road
                     <br />
@@ -40,7 +40,7 @@ function Locations() {
                 <Card className="locationsCards">
                 <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
                 <Card.Body>
-                    <Card.Title>BudsCannabis</Card.Title>
+                    <Card.Title style={{fontSize:"30px"}}>BudsCannabis</Card.Title>
                     <Card.Text style={{fontSize:"20px"}}>
                     #9775 Second Street
                     <br />
