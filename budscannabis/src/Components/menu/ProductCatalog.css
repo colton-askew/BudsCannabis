@@ -1,8 +1,6 @@
 #product-catalog {
     position: relative;
-    left: 100px;
-
-    padding: var(--spectrum-grid-outer-padding);
+    padding: 0px 0px 0px 100px;
     display: flex;
     flex:0 1 21%;
     flex-wrap: wrap;
