@@ -7,28 +7,24 @@ import Products from './Products';
 import About from './About';
 import Locations from './Locations';
 import AccountManagement from "./AccountManagement";
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from "./Components/Navbar";
 import LoginForm from "../src/Components/login/LoginForm"
 
 
 function App() {
   return (
-    <Router>  
-      <div className="App" >
+    <Router> 
         <Navbar />
-        <Route exact path="/Home" component={Home} />
-        <Route exact path="/About" component={About} />
-        <Route exact path="/Products" component={Products} />
-        <Route exact path="/Locations" component={Locations} />
-        <Route exact path="/AccountManagement" component={AccountManagement} />
-        <Route exact path="/LoginForm" component={LoginForm} />
-      </div>
-
-      <div className = "Verification">
+        <Switch>
+          <Route exact path="/Home" component={Home} />
+          <Route exact path="/About" component={About} />
+          <Route exact path="/Products" component={Products} />
+          <Route exact path="/Locations" component={Locations} />
+          <Route exact path="/AccountManagement" component={AccountManagement} />
+          <Route exact path="/LoginForm" component={LoginForm} />
           <Route path ="/" component={Verification} />
-      </div>
-
+      </Switch>
     </Router>  
   );
 }

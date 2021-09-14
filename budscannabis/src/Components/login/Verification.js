@@ -6,17 +6,19 @@ function Verification() {
     
 
   return(
-    <div id="popup" data-popup="popup-1">
-      <div className ="verify-window">
-        <h3> Age Verificacation</h3>
-        <p>Are you at least 19 years old?</p>
+    <div className="Verification">
+      <div id="popup" data-popup="popup-1">
+        <div className ="verify-window">
+          <h3> Age Verification</h3>
+          <p>Are you at least 19 years old?</p>
 
-        <div className="button-yes" data-popup-close="popup-1">
-          Yes
-        </div>
+          <div className="button-yes" data-popup-close="popup-1">
+            Yes
+          </div>
 
-        <div className="button-no">
-          No
+          <div className="button-no">
+            No
+          </div>
         </div>
       </div>
     </div>
