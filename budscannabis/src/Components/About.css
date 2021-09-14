@@ -5,6 +5,8 @@
     margin: auto; 
     margin-top: 15px;
     width: 50%;
+    min-width: 200px;
+    text-align: center;
   } 
 
   .button {

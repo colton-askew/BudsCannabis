@@ -1,10 +1,10 @@
 import React, { useState } from 'react' 
 import { Link } from 'react-router-dom';
 import '../App.css';
-import SearchIcon from "@material-ui/icons/Search";
 import './Navbar.css';
-import Dropdown from './Dropdown';
 
+//import Dropdown from './Dropdown'; CAN USE DROPDOWN LATER FOR PRODUCTS SELECTIONS
+//import SearchIcon from "@material-ui/icons/Search";
 //import Sidebar from './Sidebar';
 //import AccountBoxIcon from "@material-ui/icons/AccountBox"; MIGHT USE LATER FOR POST SIGN IN ACCOUNT ICON
  
@@ -92,7 +92,7 @@ function Navbar() {
         </Link>
         </nav>
         </>
-    )
+    );
 }
 
-export default Navbar
+export default Navbar;
