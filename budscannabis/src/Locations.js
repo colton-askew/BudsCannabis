@@ -9,7 +9,9 @@ function Locations() {
     return (
         <div className="locationsPage">
             <h1>Locations, Hours & Contact Info</h1>
-            .........................................................................................
+            <span className = "locationSpan" />
+            <hr className = "locationRule" />
+            <span className = "locationSpan" />
             <div className="pageContent">
             <p style={{fontSize:"20px"}}>We are open 7 days a week to serve you!</p>
             <p style={{fontSize:"30px"}}>
@@ -20,7 +22,9 @@ function Locations() {
             <br /><br />
             Thank you for your cooperation and support.
             </p>
-            .........................................................................................
+            <span className = "locationSpan" />
+            <hr className = "locationRule" />
+            <span className = "locationSpan" />
             </div>
             <div className="cards">
                 <Card className="locationsCards">
