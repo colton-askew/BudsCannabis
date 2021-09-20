@@ -28,3 +28,25 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+/*
+mediumBreak: 1007px
+smallBreak: 604px
+*/
+@media screen and (max-width: 1007px) {
+
+
+
+
+}
+
+/*For single column/Mobile View*/
+@media screen and (max-width: 604px) {
+
+    .cards{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+}

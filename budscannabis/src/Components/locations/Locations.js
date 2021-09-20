@@ -8,7 +8,7 @@ import {
 function Locations() {
     return (
         <div className="locationsPage">
-            <h1>Locations, Hours & Contact Info</h1>
+            <h1 className = "catalog-title">Locations, Hours & Contact Info</h1>
             <span className = "locationSpan" />
             <hr className = "locationRule" />
             <span className = "locationSpan" />
