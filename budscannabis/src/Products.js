@@ -5,7 +5,7 @@ import './Components/menu/ProductCatalog.css';
 function Products(props) {
     return (
         <div>
-            <h1>WEED
+            <h1 className = "catalog-title" >WEED
             </h1>
             <main className = "spectrum-grid">
                 <div id = "product-catalog">
