@@ -1,5 +1,6 @@
 import React from 'react'
 import './Locationspage.css'
+import keatingStore from "./keatingStore.webp"
 import {
     Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button
@@ -8,7 +9,7 @@ import {
 function Locations() {
     return (
         <div className="locationsPage">
-            <h1 className = "catalog-title">Locations, Hours & Contact Info</h1>
+            <h1 className = "locations-title">Locations, Hours & Contact Info</h1>
             <span className = "locationSpan" />
             <hr className = "locationRule" />
             <span className = "locationSpan" />
@@ -28,7 +29,7 @@ function Locations() {
             </div>
             <div className="cards">
                 <Card className="locationsCards">
-                <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                <Card.Img variant="top" src={keatingStore} alt="Our Keating location" />
                 <Card.Body>
                     <Card.Title style={{fontSize:"30px"}}>BudsCannabis</Card.Title>
                     <Card.Text style={{fontSize:"20px"}}>
@@ -38,11 +39,11 @@ function Locations() {
                     <br /> <br />
                     Tel: 778-351-2837
                     </Card.Text>
-                    <Card.Link href="https://www.google.com/maps/?q=buds%20cannabis%206765%20Veyaness%20Road%20Saanichton,%20BC" style={{fontSize:"20px"}}>Map Location</Card.Link>
+                    <Card.Link href="https://www.google.com/maps/?q=buds%20cannabis%206765%20Veyaness%20Road%20Saanichton,%20BC" target="_blank" style={{fontSize:"20px"}}>Map Location</Card.Link>
                 </Card.Body>
                 </Card>
                 <Card className="locationsCards">
-                <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                <Card.Img variant="top" src={keatingStore} alt="Our Sydney location" />
                 <Card.Body>
                     <Card.Title style={{fontSize:"30px"}}>BudsCannabis</Card.Title>
                     <Card.Text style={{fontSize:"20px"}}>
@@ -52,7 +53,7 @@ function Locations() {
                     <br /> <br />
                     Tel: 778-351-4201
                     </Card.Text>
-                    <Card.Link href="https://www.google.com/maps/?q=buds cannabis 9775 Second St, Sidney, BC V8L 4P8" style={{fontSize:"20px"}}>Map Location</Card.Link>
+                    <Card.Link href="https://www.google.com/maps/?q=buds cannabis 9775 Second St, Sidney, BC V8L 4P8" target="_blank" style={{fontSize:"20px"}}>Map Location</Card.Link>
                 </Card.Body>
                 </Card>
             </div>

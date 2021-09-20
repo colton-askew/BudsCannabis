@@ -24,9 +24,22 @@
 }
 
 .locationsCards {
-    max-width: 45%;
-    display: flex;
+    inline-size: fit-content;
+    display: block;
     flex-wrap: wrap;
+    padding: 5px;
+}
+
+.card-body {
+    margin: 0px;
+}
+
+.locations-title{
+    font-size: 50px;
+}
+
+.card-text{
+    display: flex;
 }
 
 /*
@@ -43,10 +56,5 @@ smallBreak: 604px
 /*For single column/Mobile View*/
 @media screen and (max-width: 604px) {
 
-    .cards{
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-content: center;
-    }
 
 }
