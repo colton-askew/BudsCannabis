@@ -34,7 +34,7 @@ function Navbar() {
     return (
         <>
         <nav className='navbar'>
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+        <Link to='/Home' className='navbar-logo' onClick={closeMobileMenu}>
           BudsCannabis
         </Link>
         <div className='menu-icon' onClick={handleClick}>

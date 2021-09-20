@@ -1,12 +1,84 @@
+/*
+code for tablets/desktop
+*/
 @media all and (min-width: 480px) {
-    .Login {
-      align-items: center;
-      padding: 60px 0;
-    }
-  
-    .Login form {
-      margin: 0 auto;
-      max-width: 320px;
-    }
+  .Login {
+    padding: 40px ;
+    max-width: 860px;
+    margin: auto; 
+    min-width: 400px;
+    text-align: center;
+  } 
+
+  .Login input{
+    width: 400px;
+    margin: 10px 10px;
+    padding: 5px;
+    font-size: 15px;
   }
+
+
+  .Login button {
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--primary);
+    margin: 10px
+  }
+  .Login .checkbox{ 
+    width:20px;
+    margin-right: 0px;
+  }
+
+  .Login .ForgotPassword {
+    margin-left: 50px;
+  }
+}
   
+  
+/*
+code for mobile
+*/
+  @media all and (max-width: 480px) {
+    .Login {
+      padding: 40px ;
+      max-width: 400px;
+      margin: auto; 
+      min-width: 200px;
+      text-align: center;
+    } 
+  
+    .Login input{
+      width: 250px;
+      margin: 10px 10px;
+      padding: 5px;
+      font-size: 12px;
+      
+    }
+  
+    .Login button {
+      display: initial;
+      padding: 8px 20px;
+      border-radius: 4px;
+      outline: none;
+      border: none;
+      font-size: 18px;
+      color: #fff;
+      cursor: pointer;
+      background-color: var(--primary);
+      margin: 10px
+    }
+
+    .Login .checkbox{ 
+      width:20px;
+      margin-right: 0px;
+    }
+    .Login .ForgotPassword {
+      margin-left: 20px;
+    }
+
+  }

@@ -24,6 +24,7 @@ const ContactForm = () => {
   return (
     <div className='ContactForm'>
       <div className='container'>
+        <h1>Contact Us!</h1>
         <div className='row'>
           <div className='col-12 text-center'>
             <div className='contactForm'>
@@ -44,6 +45,7 @@ const ContactForm = () => {
                       className='form-control formInput'
                       placeholder='Name'
                     ></input>
+                    <br />
                     {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
                   </div>
                   <div className='col-6'>
@@ -57,6 +59,7 @@ const ContactForm = () => {
                       className='form-control formInput'
                       placeholder='Email address'
                     ></input>
+                    <br />
                     {errors.email && (
                       <span className='errorMessage'>Please enter a valid email address</span>
                     )}
@@ -64,7 +67,7 @@ const ContactForm = () => {
                 </div>
                 {/* Row 2 of form */}
                 <div className='row formRow'>
-                  <div className='col'>
+                  <div className='subjectCol'>
                     <input
                       type='text'
                       name='subject'
@@ -78,6 +81,7 @@ const ContactForm = () => {
                       className='form-control formInput'
                       placeholder='Subject'
                     ></input>
+                    <br />
                     {errors.subject && (
                       <span className='errorMessage'>{errors.subject.message}</span>
                     )}
@@ -85,7 +89,7 @@ const ContactForm = () => {
                 </div>
                 {/* Row 3 of form */}
                 <div className='row formRow'>
-                  <div className='col'>
+                  <div className='messageCol'>
                     <textarea
                       rows={3}
                       name='message'
@@ -95,6 +99,7 @@ const ContactForm = () => {
                       className='form-control formInput'
                       placeholder='Message'
                     ></textarea>
+                    <br />
                     {errors.message && <span className='errorMessage'>Please enter a message</span>}
                   </div>
                 </div>

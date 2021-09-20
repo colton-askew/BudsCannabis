@@ -14,11 +14,11 @@ function Locations() {
             <hr className = "locationRule" />
             <span className = "locationSpan" />
             <div className="pageContent">
-            <p style={{fontSize:"20px"}}>We are open 7 days a week to serve you!</p>
-            <p style={{fontSize:"30px"}}>
+            <p >We are open 7 days a week to serve you!</p>
+            <p >
                 ​MONDAY to SATURDAY   |   10 AM to 8 PM <br />
                 SUNDAY   |   11 AM to 6 PM</p>
-            <p style={{fontSize:"25px"}}>
+            <p>
             We will be allowing a <b>maximum of 4 people in the store</b> at a time.
             <br /><br />
             Thank you for your cooperation and support.
@@ -26,7 +26,11 @@ function Locations() {
             <span className = "locationSpan" />
             <hr className = "locationRule" />
             <span className = "locationSpan" />
+            
             </div>
+
+
+
             <div className="cards">
                 <Card className="locationsCards">
                 <Card.Img variant="top" src={keatingStore} alt="Our Keating location" />

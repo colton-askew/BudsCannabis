@@ -19,17 +19,18 @@ export default function LoginForm() {
     <div className="Login">
       <Form onSubmit={handleSubmit}>
         <Form.Group size="lg" controlId="email">
-          <Form.Label>Email</Form.Label>
+          <Form.Label>Email</Form.Label> <br />
           <Form.Control
             autoFocus
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="JohnDoe@gmail.com"
-          />
+          /> <br />
         </Form.Group>
+        <br />
         <Form.Group size="lg" controlId="password">
-          <Form.Label>Password</Form.Label>
+          <Form.Label>Password</Form.Label> <br />
           <Form.Control
             type="password"
             value={password}
@@ -37,6 +38,10 @@ export default function LoginForm() {
             placeholder="******"
           />
         </Form.Group>
+        <br />
+        <Form.Control type="checkbox" className="checkbox"/>Remember me    
+        <a href="PasswordRecovery" className="ForgotPassword"> Forgot Password?</a>
+        <br />
         <Button block size="lg" type="submit"  disabled={!validateForm()}>
           Login
         </Button>
