@@ -1,6 +1,6 @@
 import React from 'react'
-import ProductCatalog from './Components/menu/ProductCatalog';
-import './Components/menu/ProductCatalog.css';
+import ProductCatalog from './Components/products/ProductCatalog';
+import './Components/products/ProductCatalog.css';
 
 function Products(props) {
     return (

@@ -5,7 +5,7 @@ import Verification from './Components/login/Verification';
 import './Components/login/Verification.css';
 import Products from './Products';
 import About from './About';
-import Locations from './Locations';
+import Locations from './Components/locations/Locations';
 import AccountManagement from "./AccountManagement";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from "./Components/Navbar";

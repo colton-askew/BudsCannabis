@@ -1,5 +1,5 @@
 import React from 'react'
-import '../src/Components/Locationspage.css'
+import './Locationspage.css'
 import {
     Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button
