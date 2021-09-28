@@ -1,0 +1,28 @@
+#product-catalog {
+  position: relative;
+  padding: 0px 0px 10px 0px;
+  display: flex;
+  flex: 0 20% 21%;
+  flex-wrap: wrap;
+}
+
+.product-title {
+  font-size: 2em;
+}
+
+.catalog-title {
+  padding-left: 20px;
+}
+/*
+mediumBreak: 1007px
+smallBreak: 604px
+*/
+@media screen and (max-width: 1007px) {
+}
+
+/*For single column/Mobile View*/
+@media screen and (max-width: 604px) {
+  #product-catalog {
+    justify-content: space-evenly;
+  }
+}
