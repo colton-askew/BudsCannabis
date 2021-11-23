@@ -2,7 +2,7 @@
 code for tablets/desktop
 */
 @media all and (min-width: 480px) {
-    .Login {
+    .Signup {
       padding: 40px ;
       max-width: 860px;
       margin: auto; 
@@ -10,7 +10,7 @@ code for tablets/desktop
       text-align: center;
     } 
   
-    .Login input{
+    .Signup input{
       width: 400px;
       margin: 10px 10px;
       padding: 5px;
@@ -18,7 +18,7 @@ code for tablets/desktop
     }
   
   
-    .Login button {
+    .Signup button {
       padding: 8px 20px;
       border-radius: 4px;
       outline: none;
@@ -29,12 +29,12 @@ code for tablets/desktop
       background-color: var(--primary);
       margin: 10px
     }
-    .Login .checkbox{ 
+    .Signup .checkbox{ 
       width:20px;
       margin-right: 0px;
     }
   
-    .Login .ForgotPassword {
+    .Signup .ForgotPassword {
       margin-left: 50px;
     }
   }
@@ -44,7 +44,7 @@ code for tablets/desktop
   code for mobile
   */
     @media all and (max-width: 480px) {
-      .Login {
+      .Signup {
         padding: 40px ;
         max-width: 400px;
         margin: auto; 
@@ -52,7 +52,7 @@ code for tablets/desktop
         text-align: center;
       } 
     
-      .Login input{
+      .Signup input{
         width: 250px;
         margin: 10px 10px;
         padding: 5px;
@@ -60,7 +60,7 @@ code for tablets/desktop
         
       }
     
-      .Login button {
+      .Signup button {
         display: initial;
         padding: 8px 20px;
         border-radius: 4px;
@@ -73,11 +73,11 @@ code for tablets/desktop
         margin: 10px
       }
   
-      .Login .checkbox{ 
+      .Signup .checkbox{ 
         width:20px;
         margin-right: 0px;
       }
-      .Login .ForgotPassword {
+      .Signup .ForgotPassword {
         margin-left: 20px;
       }
   

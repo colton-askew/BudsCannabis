@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-budscannabis-dev-111555-authRole",
+      "UnauthRoleArn": "arn:aws:iam::771473948509:role/amplify-budscannabis-dev-111555-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::771473948509:role/amplify-budscannabis-dev-111555-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-budscannabis-dev-111555-deployment",
+      "UnauthRoleName": "amplify-budscannabis-dev-111555-unauthRole",
+      "StackName": "amplify-budscannabis-dev-111555",
+      "StackId": "arn:aws:cloudformation:us-west-2:771473948509:stack/amplify-budscannabis-dev-111555/4b2c6130-2151-11ec-957a-0a17a92a41e9",
+      "AmplifyAppId": "d1vpn81l3klo1k"
+    },
+    "categories": {
+      "auth": {
+        "budscannabiscb8002e5": {}
+      }
+    }
+  }
+}

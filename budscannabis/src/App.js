@@ -10,8 +10,9 @@ import AccountManagement from "./AccountManagement";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from "./Components/Navbar";
 import LoginForm from "../src/Components/login/LoginForm"
-//import ResetPassword from "../src/Components/ResetPassword/ResetPassword"   <Route exact path="/ResetPassword" component={ResetPassword} />  THIS IS THE ROUTE AND IMPORT FOR PASSWORDRESET ONCE AWS IS IN
-        
+//import ResetPassword from "../src/Components/ResetPassword/ResetPassword"   <Route exact path="/ResetPassword" component={ResetPassword} />  THIS IS THE ROUTE AND IMPORT FOR PASSWORDRESET ONCE AWS IS IN    
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+
 
 
 function App() {
@@ -32,5 +33,4 @@ function App() {
 }
 
 
-export default App;
-
+export default withAuthenticator(App);

@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import Amplify, { Auth } from 'aws-amplify';
+import awsconfig from './aws-exports';
+Amplify.configure(awsconfig);
+
 
 ReactDOM.render(<Router>
   <React.StrictMode>

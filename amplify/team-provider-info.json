@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifya6a1c78f80c24-staging-213325-authRole",
+      "UnauthRoleArn": "arn:aws:iam::771473948509:role/amplify-amplifya6a1c78f80c24-staging-213325-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::771473948509:role/amplify-amplifya6a1c78f80c24-staging-213325-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-amplifya6a1c78f80c24-staging-213325-deployment",
+      "UnauthRoleName": "amplify-amplifya6a1c78f80c24-staging-213325-unauthRole",
+      "StackName": "amplify-amplifya6a1c78f80c24-staging-213325",
+      "StackId": "arn:aws:cloudformation:us-west-2:771473948509:stack/amplify-amplifya6a1c78f80c24-staging-213325/e1523b10-216c-11ec-a682-0629b959eac1",
+      "AmplifyAppId": "d3dkmlc3kyocnt"
+    },
+    "categories": {
+      "auth": {
+        "BudsCannabisbudscannabis": {}
+      }
+    }
+  }
+}

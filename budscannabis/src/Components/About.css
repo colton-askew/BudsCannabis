@@ -2,81 +2,81 @@
 code for tablets/desktop
 */
 @media all and (min-width: 480px) {
-  .ContactForm {
-    padding: 40px ;
-    max-width: 860px;
-    margin: auto; 
-    min-width: 400px;
-    text-align: center;
-  } 
-
-  .ContactForm input{
-    width: 400px;
-    margin: 10px 10px;
-    padding: 5px;
-    font-size: 15px;
-    
+    .ContactForm {
+      padding: 40px ;
+      max-width: 860px;
+      margin: auto; 
+      min-width: 400px;
+      text-align: center;
+    } 
+  
+    .ContactForm input{
+      width: 400px;
+      margin: 10px 10px;
+      padding: 5px;
+      font-size: 15px;
+      
+    }
+  
+    .ContactForm textarea {
+      width: 500px;
+      height: 200px;
+      padding: 10px;
+      margin: 10px;
+      font-size: 15px;
+    }
+  
+    .ContactForm button {
+      padding: 8px 20px;
+      border-radius: 4px;
+      outline: none;
+      border: none;
+      font-size: 18px;
+      color: #fff;
+      cursor: pointer;
+      background-color: var(--primary);
+      margin: 10px
+    }
   }
-
-  .ContactForm textarea {
-    width: 500px;
-    height: 200px;
-    padding: 10px;
-    margin: 10px;
-    font-size: 15px;
+  
+  /*
+  code for mobile
+  */
+  @media all and (max-width: 480px) {
+    .ContactForm {
+      padding: 40px ;
+      max-width: 400px;
+      margin: auto; 
+      min-width: 200px;
+      text-align: center;
+    } 
+  
+    .ContactForm input{
+      width: 250px;
+      margin: 10px 10px;
+      padding: 5px;
+      font-size: 12px;
+      
+    }
+  
+    .ContactForm textarea {
+      width: 250px;
+      height: 250px;
+      padding: 10px;
+      margin: 10px;
+      font-size: 12px;
+    }
+  
+    .ContactForm button {
+      display: initial;
+      padding: 8px 20px;
+      border-radius: 4px;
+      outline: none;
+      border: none;
+      font-size: 18px;
+      color: #fff;
+      cursor: pointer;
+      background-color: var(--primary);
+      margin: 10px
+    }
   }
-
-  .ContactForm button {
-    padding: 8px 20px;
-    border-radius: 4px;
-    outline: none;
-    border: none;
-    font-size: 18px;
-    color: #fff;
-    cursor: pointer;
-    background-color: var(--primary);
-    margin: 10px
-  }
-}
-
-/*
-code for mobile
-*/
-@media all and (max-width: 480px) {
-  .ContactForm {
-    padding: 40px ;
-    max-width: 400px;
-    margin: auto; 
-    min-width: 200px;
-    text-align: center;
-  } 
-
-  .ContactForm input{
-    width: 250px;
-    margin: 10px 10px;
-    padding: 5px;
-    font-size: 12px;
-    
-  }
-
-  .ContactForm textarea {
-    width: 250px;
-    height: 250px;
-    padding: 10px;
-    margin: 10px;
-    font-size: 12px;
-  }
-
-  .ContactForm button {
-    display: initial;
-    padding: 8px 20px;
-    border-radius: 4px;
-    outline: none;
-    border: none;
-    font-size: 18px;
-    color: #fff;
-    cursor: pointer;
-    background-color: var(--primary);
-    margin: 10px
-  }
-}
